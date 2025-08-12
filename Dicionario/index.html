@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionário Web Dev - Página Inicial</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <button class="menu-toggle">☰ Menu</button>
+        <h1>Dicionário de Desenvolvimento Web</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+                <li class="dropdown">
+                    <a href="html/html.html" class="dropdown-toggle">HTML ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="html/estrutura.html">Estrutura</a></li>
+                        <li><a href="html/texto.html">Texto</a></li>
+                        <li><a href="html/midia.html">Mídia</a></li>
+                        <li><a href="html/listas-tabelas.html">Listas & Tabelas</a></li>
+                        <li><a href="html/formularios.html">Formulários</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="javascript/javascript.html" class="dropdown-toggle">JavaScript ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript/sintaxe.html">Sintaxe</a></li>
+                        <li><a href="javascript/dom.html">Manipulação DOM</a></li>
+                        <li><a href="javascript/eventos.html">Eventos</a></li>
+                        <li><a href="javascript/estruturas-dados.html">Estruturas de Dados</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="css/css.html">CSS</a></li>
+                <li><a href="frameworks/frameworks.html">Frameworks</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Dicionário Completo para Desenvolvedores Web</h2>
+            <p>Explore tags HTML, propriedades CSS, conceitos JavaScript e frameworks modernos, com exemplos práticos e explicações detalhadas.</p>
+        </section>
+    
+        <section class="categorias">
+            <div class="categoria-card">
+                <h3><a href="estruturas/estruturas.html">HTML Básico</a></h3>
+                <p>Fundamentos da linguagem de marcação para web.</p>
+                <ul>
+                    <li>&lt;!DOCTYPE&gt; - Declaração do tipo de documento</li>
+                    <li>&lt;html&gt; - Elemento raiz</li>
+                    <li>&lt;head&gt; - Metadados do documento</li>
+                    <li>&lt;body&gt; - Conteúdo da página</li>
+                </ul>
+            </div>
+
+            <div class="categoria-card">
+                <h3><a href="css/css.html">CSS Essencial</a></h3>
+                <p>Propriedades fundamentais para estilização.</p>
+                <ul>
+                    <li>display - Controle de layout</li>
+                    <li>position - Posicionamento de elementos</li>
+                    <li>flexbox - Modelo de layout flexível</li>
+                    <li>grid - Sistema de layout em grade</li>
+                </ul>
+            </div>
+
+            <div class="categoria-card">
+                <h3><a href="javascript/javascript.html">JavaScript Básico</a></h3>
+                <p>Conceitos fundamentais da linguagem.</p>
+                <ul>
+                    <li>Variáveis (let, const)</li>
+                    <li>Estruturas condicionais</li>
+                    <li>Funções e escopo</li>
+                    <li>Manipulação do DOM</li>
+                </ul>
+            </div>
+
+            <div class="categoria-card">
+                <h3><a href="html-avancado/html-avancado.html">HTML Avançado</a></h3>
+                <p>Elementos semânticos e recursos modernos.</p>
+                <ul>
+                    <li>&lt;section&gt;, &lt;article&gt;</li>
+                    <li>&lt;header&gt;, &lt;footer&gt;</li>
+                    <li>&lt;canvas&gt; - Gráficos</li>
+                    <li>&lt;svg&gt; - Vetores</li>
+                </ul>
+            </div>
+
+            <div class="categoria-card">
+                <h3><a href="css-avancado/css-avancado.html">CSS Avançado</a></h3>
+                <p>Técnicas modernas de estilização.</p>
+                <ul>
+                    <li>Animações e transições</li>
+                    <li>Variáveis CSS</li>
+                    <li>Media queries</li>
+                    <li>Pseudo-elementos</li>
+                </ul>
+            </div>
+
+            <div class="categoria-card">
+                <h3><a href="javascript-avancado/javascript-avancado.html">JavaScript Avançado</a></h3>
+                <p>Conceitos para desenvolvimento complexo.</p>
+                <ul>
+                    <li>Async/Await</li>
+                    <li>Promises</li>
+                    <li>APIs do Browser</li>
+                    <li>ES6+ Features</li>
+                </ul>
+            </div>
+
+            <div class="categoria-card">
+                <h3><a href="frameworks/frameworks.html">Frameworks Front-end</a></h3>
+                <p>Bibliotecas e frameworks populares.</p>
+                <ul>
+                    <li>React.js</li>
+                    <li>Vue.js</li>
+                    <li>Angular</li>
+                    <li>Svelte</li>
+                </ul>
+            </div>
+
+            <div class="categoria-card">
+                <h3><a href="acessibilidade/acessibilidade.html">Acessibilidade</a></h3>
+                <p>Técnicas para desenvolvimento inclusivo.</p>
+                <ul>
+                    <li>ARIA attributes</li>
+                    <li>Semântica HTML</li>
+                    <li>Contraste de cores</li>
+                    <li>Navegação por teclado</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="destaques">
+            <h3>Recursos do Dicionário</h3>
+            <ul>
+                <li>Exemplos práticos e snippets de código</li>
+                <li>Organização por categorias e níveis</li>
+                <li>Design responsivo para todos os dispositivos</li>
+                <li>Boas práticas e padrões modernos</li>
+                <li>Atualizações constantes com as novidades</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Sobre</h4>
+                <p>Um dicionário completo para desenvolvedores web de todos os níveis.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="#">MDN Web Docs</a></li>
+                    <li><a href="#">CSS Tricks</a></li>
+                    <li><a href="#">JavaScript.info</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <p>contato@dicionarioweb.dev</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dicionário Web Dev. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
